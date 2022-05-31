@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: black;
+    text-decoration: none;
+}
+.contenedor{
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    top: 30px;
+    left: 500px;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;     
+}
+h1{
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-bottom: solid rgb(1, 1, 1);
+    position: fixed;
+    top: 250px;
+    width: 180px;
+    margin-left: 110px;
+}
+.contenedor2{
+    position: fixed;
+    margin: 150px;
+    margin-bottom: 50px;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:160px;
+    position: fixed;
+    top: 90px;
+    left: 630px;
+}
+.boton1{
+    border: solid black 2px;
+    background-color:rgba(255, 255, 255, 0.693);
+    width: 800px;
+    border-radius: 70px;
+    position: fixed;
+    top: 350px;
+    left: 550px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+.boton2{
+    border: solid black 2px;
+    background-color:white ;
+    border-radius: 70px;
+    position: fixed;
+    top: 400px;
+    left: 550px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+.boton3{
+    border: solid black 2px;
+    background-color:white;
+    border-radius: 70px;
+    position: fixed;
+    top: 450px;
+    left: 550px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+.contenedor2 footer{
+    position: fixed;
+    top: 550px;
+    left: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo{
+    position: fixed;
+    color: black;
+    top: 800px;
+}
+footer{
+    color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 630px;
+    margin-left: 640px;
+    font-weight: 700;
+}
+a:hover{
+    font-size: 25px;
+}
+
+@media(max-width:1000px){
+    .contenedor{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 30px;
+        left: 50px;
+        height: 600px;
+        width: 300px;
+        border-radius: 30px;     
+    }
+    .titulo{
+        position: fixed;
+        left: 5px;    
+}
+    img{
+        width:150px;
+        height:150px;
+        border-radius:160px;
+        position: fixed;
+        top: 90px;
+        left: 130px;
+    }
+    .boton1{
+        border: solid black 2px;
+        background-color:rgba(255, 255, 255, 0.693);
+        width: 800px;
+        border-radius: 70px;
+        position: fixed;
+        top: 350px;
+        left: 80px;
+        height: 40px;
+        width: 250px;
+        text-align: center;
+    }
+    
+    .boton2{
+        border: solid black 2px;
+        background-color:white ;
+        border-radius: 70px;
+        position: fixed;
+        top: 400px;
+        left: 80px;
+        height: 40px;
+        width: 250px;
+        text-align: center;
+    }
+    .boton3{
+        border: solid black 2px;
+        background-color:white;
+        border-radius: 70px;
+        position: fixed;
+        top: 450px;
+        left: 80px;
+        height: 40px;
+        width: 250px;
+        text-align: center;
+    }
+    .logo{
+        position: fixed;
+        color: black;
+        top: 800px;
+    }
+    footer{
+        color: rgb(255, 255, 255);
+        position: fixed; 
+        top: 630px;
+        margin-left: 140px;
+        margin-top: 50px;
+        font-weight: 700;
+    }
+}
